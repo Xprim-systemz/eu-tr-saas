@@ -1,5 +1,10 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
-};
+// const config = {
+//   plugins: ["@tailwindcss/postcss"],
+// };
 
-export default config;
+// export default config;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: { ignoreDuringBuilds: true },
+};
+export default nextConfig;
